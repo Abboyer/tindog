@@ -1,6 +1,30 @@
+body {
+  font-family: "Montserrat";
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+h1 {
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+h2 {
+  padding: 0 10%;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
+}
+
 #title {
   background-color: #ff4b67;
-  max-height: 80vh;
+  max-height: 90vh;
   overflow: hidden;
 }
 
@@ -10,20 +34,6 @@
 
 .big-margin {
   margin: 50px 16px 50px 0;
-} 
-
-nav {
-  margin-bottom: 100px;
-}
-
-h1 {
-  line-height:1.5;
-  color: white;
-  font-weight: 900;
-  font-size: 50px;
-}
-body {
-  font-family: "Montserrat";
 }
 
 #features {
@@ -37,19 +47,11 @@ body {
   margin-bottom: 10px;
 }
 
-h3 {
-  font-weight: 600;
-}
-
 #testimonials {
   background-color: #f39c8f;
   color: white;
   text-align: center;
   padding: 100px 0;
-}
-h2 {
-  padding: 0 10%;
-  font-weight: 600;
 }
 
 #testimonials img {
@@ -74,7 +76,7 @@ h2 {
   padding: 100px 5%;
 }
 
-.pricing-cards{
+.pricing-cards {
   margin-top: 50px;
 }
 
@@ -82,11 +84,11 @@ h2 {
   margin-bottom: 20px;
 }
 
-#cta, 
+#cta,
 #footer {
-text-align: center;
-color: white;
-padding: 50px 10%;
+  text-align: center;
+  color: white;
+  padding: 50px 10%;
 }
 
 #footer {
@@ -101,9 +103,9 @@ padding: 50px 10%;
   transform: rotate(25deg);
   width: 60%;
   margin: 0 auto;
-  display: block
+  display: block;
 }
-.navbar-brand{
-font-family: "Ubuntu";
-font-size: 32px;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 32px;
 }
